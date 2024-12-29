@@ -8,7 +8,7 @@ dbo = Database()
 
 @app.route('/')
 def index():
-    return render_template('login.html')
+    return render_template('login.html') 
 
 #sabse phle /register jab ham dalenge toh /register pe jayega uske baad, vo register.html ko kholega
 #phir register.html se jab subit button hoga toh anchor tag use kara hai jo ek naye url /perform_registration pe jayega
